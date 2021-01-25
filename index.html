@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap</title>
+  </head>
+
+  <style>
+    #services img {
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #55A762;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #55A762; 
+      color: white; 
+      text-align: center;
+      padding-top: 10px; 
+      padding-bottom: 10px;
+    }
+  </style>
+
+  <body>
+
+    <img class="img-fluid" src="images/background.jpg" alt="Welcome Doctor Image">
+
+    <nav id="navbar-site" class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color: #55A762;">
+      <div class="container">
+        <a class="navbar-brand d-none d-sm-inline-block"><img src="images/wisdompetlogo.svg" style="width: 40px;" alt="Wisdom Pet Logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav"        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          
+          <div class="navbar-nav ml-sm-auto">
+            <a  class="nav-item nav-link active" href="#">Home</a>
+
+            <div class="dropdown">
+                <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="servicesDropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">Mission</a>
+
+              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <a class="dropdown-item" href="#">Grooming</a>
+                <a class="dropdown-item" href="#">General Health</a>
+                <a class="dropdown-item" href="#">Nutrition</a>
+                <a class="dropdown-item" href="#">Pest Control</a>
+                <a class="dropdown-item" href="#">Vaccinations</a>
+              </div>  
+            </div>
+            
+            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link" href="#">Staff</a>
+            <a class="nav-item nav-link" href="#">Testimonials</a>
+
+            <form class="form-inline">
+              <input class="form-control mr-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-light" type="submit">Go</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </nav>  
+
+    <div class="container mb-50">
+      <div class="row">
+        <section class="col-12">
+          <section id="services">
+            <div class="container">
+                <div class="row"> 
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-exoticpets.svg" alt="Icon">
+                      <h3>Exotic Pets</h3>
+                      <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                    </article>
+
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-grooming.svg" alt="Icon">
+                      <h3>Grooming</h3>
+                      <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                    </article>
+
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-health.svg" alt="Icon">
+                      <h3>General Health</h3>
+                      <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                    </article>
+
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-nutrition.svg" alt="Icon">
+                      <h3>Nutrition</h3>
+                      <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                    </article>
+
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-pestcontrol.svg" alt="Icon">
+                      <h3>Pest Control</h3>
+                      <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                    </article>
+
+                    <article class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img class="mx-auto" src="images/icon-vaccinations.svg" alt="Icon">
+                      <h3>Vaccinations</h3>
+                      <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                    </article>
+                </div>    
+            </div>
+          </section><!-- services -->
+
+          <h2>OUR MISSION</h2>
+          <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+          <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy life.</p>
+
+          <h2>EXOTIC PETS</h2>
+          <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+
+          <h2>SERVICES</h2>
+
+          <h3>Grooming</h3>
+          <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+
+          <h3>General Health</h3>
+          <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+
+          <h3>Nutrition</h3>
+          <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+
+          <h3>Pest Control</h3>
+          <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+
+          <h3>Vaccinations</h3>
+          <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+
+          <h2>OUR STAFF</h2>
+          Our Staff
+
+          <h3>Dr. Winthrop</h3>
+          <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+
+          <h3>Dr. Chase</h3>
+          <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.</p>
+
+          <h3>Dr Sanders</h3>
+          <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for Leroy's guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+
+        </section><!-- col-12 -->
+      </div><!-- row -->
+    </div><!-- content container -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  <footer class="footer footer-dark footer-expand-sm">
+    <div class="container">
+    <h5>&copy 2020, Wisdom Pet Medicine. All rights reserved</h5>
+    </div>
+    </footer>
+</html>
